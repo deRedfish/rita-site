@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rita-site/static/css/main.726fce98.chunk.css",
-    "main.js": "/rita-site/static/js/main.aba457af.chunk.js",
-    "main.js.map": "/rita-site/static/js/main.aba457af.chunk.js.map",
+    "main.js": "/rita-site/static/js/main.db80da12.chunk.js",
+    "main.js.map": "/rita-site/static/js/main.db80da12.chunk.js.map",
     "runtime-main.js": "/rita-site/static/js/runtime-main.6126abf0.js",
     "runtime-main.js.map": "/rita-site/static/js/runtime-main.6126abf0.js.map",
     "static/css/2.31ff0196.chunk.css": "/rita-site/static/css/2.31ff0196.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.31ff0196.chunk.css",
     "static/js/2.542de5c3.chunk.js",
     "static/css/main.726fce98.chunk.css",
-    "static/js/main.aba457af.chunk.js"
+    "static/js/main.db80da12.chunk.js"
   ]
 }
