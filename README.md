@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Rita Pequeno's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is meant as a simple introductory project to using React for simple purposes.
 
-## Available Scripts
+It was built for Rita Pequeno, a portuguese artist specializing in ceramics, to serve as her active portfolio. The logo, background and images are all from her, and the website's design has been shaped to her liking in a collaborative effort. 
 
-In the project directory, you can run:
+This project is powered by create-react-app, and uses Bootstrap for react, the react-icons library and react-router-dom for the page loading. Everything is based off of the App.js file, which loads and switchs pages using Routes and Links. Each page is specified further in its own .js and .css file contained in the components folder in /src.
 
-### `yarn start`
+## Home 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The landing page is also the portfolio's main gallery. It consists of a grid of miniaturized versions of full images of the artist's works, with some effects on hover such as an overlay with title and a transitive border-radius. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clicking any of the images pops up a modal with the larger version of the photo, along with the work's title and description on the right side.
 
-### `yarn test`
+## Navbar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The navbar is made simple, with a logo (designed by me and Rita Pequeno), and buttons for each other page on the app. The logo serves as the home page button as well. 
 
-### `yarn build`
+Some simple effects were added on hover to the navlinks, making a roundish purple background transition in and out on hover. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On mobile devices (device screen width under 960px) the navlinks disappear and a menu button shows up. When clicked, a navmenu slides over the screen from the left, containing all of the navlinks for the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Instagram button is just a simple link to Rita Pequeno's artist instagram account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About 
 
-### `yarn eject`
+The about page contains two divs, side by side using the same grid display used for the modal. It displays a photo of the artist and a short biography on a semi-transparent background for readability. Line-height is at 1.6, font is the same for the entire website: Century Gothic, sans-serif.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Shop
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The shop page does not handle any sort of cart or payments voluntarily. This would increase the app's complexity way beyond necessity and would raise hosting costs and security concerns. For now, inquiries about purchases need to be negociated directly with Rita Pequeno via her contact info. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The works currently for sale are displayed here with the same modal design as the home page, and an adjusted grid format for gallery display.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Events
 
-## Learn More
+This page is currently still under development. It is meant to showcase on-going exhibits or any other events that the artist is taking part in, but its design is not yet finalized.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Mobile
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The website has been made compatible with mobile formats manually through CSS adjustments based on screen width. On resizing, these change automatically.
