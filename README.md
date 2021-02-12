@@ -38,4 +38,8 @@ This page is currently still under development. It is meant to showcase on-going
 
 ### Mobile
 
+<<<<<<< Updated upstream
 The website has been made compatible with mobile formats manually through CSS adjustments based on screen width. On resizing, these change automatically.
+=======
+The website has been made compatible with mobile formats manually through CSS adjustments based on screen width. On resizing, these change automatically.
+>>>>>>> Stashed changes
